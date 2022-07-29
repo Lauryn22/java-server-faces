@@ -3,9 +3,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://java.sun.com/jsf/html" >
     <h:head>
-        <title>First Facelet</title>
+        <title>Page hello</title>
     </h:head>
     <h:body>
         <h1>#{helloWorld.message}</h1>
+
+        <h:form>
+            <h:commandButton action="home?faces-redirect=true" value="Page d'accueil" />
+        </h:form>
     </h:body>
 </html>
