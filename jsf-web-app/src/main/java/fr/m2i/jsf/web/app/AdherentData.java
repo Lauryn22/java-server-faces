@@ -27,6 +27,13 @@ public class AdherentData {
         adherent = new Adherent();
         return "listAdherent";
     }
+    
+    public String onDelete() {
+        adherents.remove(this.adherent.getId());
+        
+       return "listAdherent";
+    }
+ 
 
     public List<Adherent> getAdherents() {
         return adherents;
