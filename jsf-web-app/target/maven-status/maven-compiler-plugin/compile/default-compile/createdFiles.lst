@@ -1,6 +1,9 @@
 fr\m2i\jsf\web\app\Employee.class
 fr\m2i\jsf\web\app\UserData$1.class
-fr\m2i\jsf\web\app\Message.class
+fr\m2i\jsf\web\app\Adherent.class
 fr\m2i\jsf\web\app\HelloWorld.class
+fr\m2i\jsf\web\app\AdherentData.class
+fr\m2i\jsf\web\app\ListAdherent.class
+fr\m2i\jsf\web\app\Message.class
 fr\m2i\jsf\web\app\NavigationController.class
 fr\m2i\jsf\web\app\UserData.class
